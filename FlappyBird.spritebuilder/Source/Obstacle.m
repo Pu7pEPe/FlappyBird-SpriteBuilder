@@ -17,7 +17,7 @@
 
 // visibility on a 3,5-inch iPhone ends a 88 points and we want some meat
 //static const CGFloat minimumYPosition = 200.f;
-static const CGFloat minimumYPosition = 300.f;
+static const CGFloat minimumYPosition = 400.f;
 // visibility ends at 480 and we want some meat
 static const CGFloat maximumYPosition = 380.f;
 
