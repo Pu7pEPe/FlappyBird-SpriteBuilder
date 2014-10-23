@@ -202,6 +202,19 @@
     //Anthony 102214a
     // move and loop the bushes
     for (CCNode *bush in _bushes) {
+
+//        // move the bush
+//        bush.position = ccp(bush.position.x -
+//                            (character.physicsBody.velocity.x * delta), bush.position.y );
+//       
+//        // move it to the right
+//                if (bush.position.x <= (-1 * bush.contentSize.width)) {
+//                    bush.position = ccp(bush.position.x +
+//                                        2 * bush.contentSize.width, bush.position.y);
+//                }
+        
+        
+        
         // move the bush
         
         // delta is a time element correct?
@@ -221,7 +234,7 @@
 
         // From CCNode.m
         // @synthesize physicsBody = _physicsBody;
-        
+        // HOW does the update method work?
         bush.position = ccp(bush.position.x -
                             (character.physicsBody.velocity.x * delta), bush.position.y + 1);
         
