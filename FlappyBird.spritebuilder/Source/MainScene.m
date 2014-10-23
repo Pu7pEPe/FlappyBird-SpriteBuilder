@@ -223,7 +223,7 @@
         // @synthesize physicsBody = _physicsBody;
         
         bush.position = ccp(bush.position.x -
-                            (character.physicsBody.velocity.x * delta), bush.position.y + 10);
+                            (character.physicsBody.velocity.x * delta), bush.position.y + 1);
         
         // if the left corner is one complete width off the screen,
         // move it to the right
