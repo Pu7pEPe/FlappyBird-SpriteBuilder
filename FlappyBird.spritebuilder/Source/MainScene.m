@@ -208,10 +208,10 @@
         
         // if the left corner is one complete width off the screen,
         // move it to the right
-        if (bush.position.x <= (-1 * bush.contentSize.width)) {
-            bush.position = ccp(bush.position.x +
-                                2 * bush.contentSize.width, bush.position.y);
-        }
+//        if (bush.position.x <= (-1 * bush.contentSize.width)) {
+//            bush.position = ccp(bush.position.x +
+//                                2 * bush.contentSize.width, bush.position.y);
+//        }
     }
     
     // move and loop the clouds
