@@ -29,16 +29,16 @@
     // Anthony 102314a
     // Check to see if two seconds have passed
     
-//    if (timeSinceObstacle > 2.0f)
-//    {
-//    
-//        // Add a new obstacle
-//        [self addObstacle];
-//        
-//        // Then reset the timer.
-//        timeSinceObstacle = 0.0f;
-//        
-//    }
+    if (timeSinceObstacle > 2.0f)
+    {
+    
+        // Add a new obstacle
+        [self addObstacle];
+        
+        // Then reset the timer.
+        timeSinceObstacle = 0.0f;
+        
+    }
 
     // Anthony 102314a
     
