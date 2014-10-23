@@ -203,8 +203,27 @@
     // move and loop the bushes
     for (CCNode *bush in _bushes) {
         // move the bush
+        
+        // delta is a time element correct?
+        // moving the bush everytime there is a change in delta
+        // moving the bush only on the x axis, y stays the same as the original position
+        // ccp is what?
+        
+        // this specifies where the next position of the bush is
+        // bush.position.x - (character.physicsBody.velocity.x * delta)
+        
+        // From MainScene.m is the definition of character
+        // Character*      character;
+        
+        // From Character.h
+        // #import "CCNode.h"
+        //    @interface Character : CCSprite
+
+        // From CCNode.m
+        // @synthesize physicsBody = _physicsBody;
+        
         bush.position = ccp(bush.position.x -
-                            (character.physicsBody.velocity.x * delta), bush.position.y);
+                            (character.physicsBody.velocity.x * delta), bush.position.y + 10);
         
         // if the left corner is one complete width off the screen,
         // move it to the right
