@@ -277,6 +277,10 @@
                     child.offset = ccp(child.offset.x + 2*bush.contentSize.width, child.offset.y);
                 }
             }
+        
+            //Anthony 102414a 4:35pm
+            NSLog(@"%f, %f", bushScreenPosition.x, bushScreenPosition.y);
+            //Anthony 102414+a 4:35pm
         }
     }
     
